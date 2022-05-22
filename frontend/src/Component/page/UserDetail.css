@@ -1,0 +1,66 @@
+.userMainDiv {
+  width: 80vw;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+}
+.action > a {
+  border: 1px solid #333;
+  margin-right: 17px;
+  text-decoration: none;
+  padding: 0px 3px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.head > button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background: orange;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+}
+
+.allUserSection > h2 {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  width: 14rem;
+  margin: 2rem auto;
+}
+
+table.allUsersTable {
+  width: 100%;
+}
+
+tr {
+  text-align: center;
+}
+.action {
+  margin: 1px; /* border: 1px solid tomato; */
+  text-align: end;
+}
+
+button.btn {
+  margin-right: 16px;
+}
+
+th.text-secondary.last-action {
+  text-align: end;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #333;
+  padding: 4px;
+}
+td.seral {
+  text-align: left;
+}
+th.text-secondary.text-left {
+  text-align: left;
+}
